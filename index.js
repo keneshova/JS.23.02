@@ -12,5 +12,12 @@ let example3 = document.querySelector("#example-id");
 example3.style.backgroundImage = "url(/anime.jpg)";
 
 let example4 = document.querySelector("p:nth-child(4)");
+example4.style.width = "200px";
+example4.style.height = "200px";
+example4.style.margin = "40px";
+example4.style.transform = "rotate(-35deg)";
 
-example4.
+
+//соз пустой ul в конце боди
+
+
