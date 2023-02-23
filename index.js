@@ -19,5 +19,16 @@ example4.style.transform = "rotate(-35deg)";
 
 
 //соз пустой ul в конце боди
+let list = document.queryElement("ul");
+document.body.append(list);
+for (let i = 1; i <= 10; i++) {
+  let listItem = document.createElement("li");
+  listItem.textContent = "Example " + i;
+  list.append(listItem);
+}
 
+let helloBtn = document.querySelector("#hello");
+helloBtn.addEventListener("click", function(){
+  alert("Hello!");
+});
 
